@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+canvas {
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+    position: absolute;
+}
+
+h2 {
+    padding: 5px;
+}
+
+p {
+    color: cornsilk;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+nav {
+    background: rgba(4, 188, 250, 0.8);
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title h1 {
+    color: cornsilk;
+    line-height: 60px;
+}
+
+.title img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.Side {
+    background-color: rgba(173, 215, 229, 0.8);
+    float: left;
+    width: 150px;
+}
+
+.Side ul{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.info {
+    margin-right: 10px;
+    float: left;
+    background-color: rgba(0, 0, 137, 0.7);
+    color: cornsilk;
+    width: 80%;
+}
+
+footer {
+    clear: left;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            padding :0px;
+            margin: 0px;
+        }
+        canvas{
+            border: 1px solid black;
+            width: 450px;
+            height: 450px;
+        }
+        #inner{
+            position:absolute;
+        }
+        
+        #outer{
+            position:absolute;
+        }
+        
+        #core{
+            position:absolute;
+            opacity: 0.5;
+        }
+    </style>
+    <script src="3DObject.js"></script>
+    <title>Sphere</title>
+</head>
+<body>
+    <canvas id="inner"></canvas>
+    <canvas id="core"></canvas>
+    <canvas id="outer"></canvas>
+    <script src="Matrix.js"></script>
+    <script src="coreSphere.js"></script>
+    <script src="innerSphere.js"></script>
+    <script src="sphere.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

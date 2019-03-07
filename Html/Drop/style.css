@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif; 
+}
+#drop{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 30%;
+    height: 30%;
+    background: none;
+}
+#cup{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#backView{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    src: url(index.png);
+}
+#logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    visibility: visible;
+    transform: translate(-50%, -50%);
+}
+#indexPicture {
+    opacity: 1;
+    visibility: hidden;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(172, 90, 248), rgb(92, 20, 160));
+}
+button {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    height: 10%;
+    width: 20%;
+    border-radius: 25px;
+    border-style: none;
+    border: 2px solid blueviolet;
+    background: rgb(56, 13, 155);
+    text-align: center;
+    font-size: 75%;
+    color: blueviolet;
+    transform: translate(-50%,-50%);
+    transition: 250ms;
+}
+button:hover {
+    width: 30%;
+    border-radius: 30px;
+}
+button:hover h1 {
+    color: skyblue;
+}
+@keyframes dropColor {
+    from {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(92, 20, 160));
+    }
+    to {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 255, 0));
+    }
+}

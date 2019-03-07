@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebGL Test</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        canvas{
+            border: 1px solid black;
+            width: 450px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body onload="Init();">
+    <canvas></canvas>
+    <script src="matrix.js"></script>
+    <script src="3DObject.js"></script>
+    <script src="main.js"></script>
+    <h1>Input x, y, z, cordinate</h1>
+    x <input type="text" id="xcord" placeholder="numbers">
+    y <input type="text" id="ycord" placeholder="numbers">
+    z <input type="text" id="zcord" placeholder="numbers">
+    <input type="button" value="Move" onclick="move()">
+</body>
+</html>
