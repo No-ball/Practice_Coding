@@ -1,0 +1,14 @@
+A 7 A 8 A 7 A 6 A 9 A 8 A 9 P
+D 0 D 0 D 1 D 0 D 0 D 0 D 0 P
+A 7 A 8 A 7 A 6 A 9 A 8 A 9 P
+D 0 D 0 D 0 D 0 D 0 D 0 D 0 P
+A 7 A 8 A 3 A 2 A 3 A 8 A 9 P
+D 0 D 0 D 0 D 0 D 0 D 0 D 0 P
+A 7 A 8 A 3 A 2 A 3 A 8 A 9 P
+D 0 D 0 D 0 D 0 D 0 D 0 D 0 P
+A 7 A 8 A 4 A 6 A 4 A 8 A 9 P
+D 0 D 0 D 0 D 0 D 0 D 0 D 0 P
+A 7 A 8 A 7 A 6 A 9 A 8 A 9 P
+D 0 D 0 D 0 D 0 D 0 D 0 D 0 P
+
+E

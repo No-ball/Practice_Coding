@@ -1,0 +1,1 @@
+Rise.gl.drawArrays(Rise.gl.POINTS, 0, Rise.vertexData.length / 3);

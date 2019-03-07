@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>My first webpage</title>
+        <style>
+            .outer {
+                width: 960px;
+                color: navy;
+                background-color: pink;
+                border: 2px solid darkblue;
+                padding: 5px;
+            }
+            .c{
+                text-align: center
+            }
+            article{
+                width: 950px;
+                display: table;
+                background-color: darkgoldenrod;
+            }
+            footer{
+                width: 950px;
+                background-color: brown;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <p>My first webpage</p>
+        <dl>
+            <dt>My first webpage</dt>
+            <dd>Every things that I learned today!</dd>
+        </dl>
+        <a href = "next.html"> To next web</a>
+        <ul>
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+        </ul>
+        <ol>
+            <li>Fruit</li>
+            <li>Vegetables</li>
+        </ol>
+        <table border="1">
+            <tr>
+                <td>1 - 1</td>
+                <td rowspan="2">2 - 2</td>
+            </tr>
+            <tr>
+                <td>2 - 1</td>
+            </tr>
+        </table>
+        <div class="outer">
+            <h1 class="c">My outer "style"</h1>
+        </div>
+        <header>Try try try</header>
+        <article>
+            <h1>The articla title</h1>
+            <p>This is the contants of the article element.</p>
+        </article>
+        <footer>
+            <h1 class="c">My footer</h1>
+            <p>THis is my footer</p>
+        </footer>
+        <form>
+            <b class="outer">Name</b>
+            <input type="text" name="user_name" size="35" value="">
+        </form>
+        <form>
+            <b>Male:</b>
+            <input type="radio" name="gender" value="Male">
+            <b>Female:</b>
+            <input type="radio" name="gender" value="Female">
+            <b>Other:</b>
+            <input type="radio" name="gender" value="Other">    
+        </form>
+        <form class="outer">
+            <select name = "Numbers">
+                <option value="None selected">Please select below</option>
+                <option value="one">one</option>
+                <option value="two">2</option>
+
+        </form>
+    </body>
+</html>

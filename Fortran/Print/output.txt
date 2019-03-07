@@ -1,0 +1,3 @@
+ Please input an integer number:
+ Your input is            5
+ The integer number is            5

@@ -1,0 +1,12 @@
+time: 3.85516 s
+vector size: 10000000
+loop time: 130
+
+global run time: 65.795 ms
+shared run time: 71.696 ms
+cpu run time: 3646.97 ms
+c_arr [2]: 0.689755
+g_arr [2]: 0.689755
+s_arr [2]: 0.689755
+Diff(g/c): 0
+Diff(s/c): -nan

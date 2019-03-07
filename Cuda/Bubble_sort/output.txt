@@ -1,0 +1,6 @@
+time[gpu]: 0.105246 ms
+time[host]: 2.63549 ms
+ratio: 25.0412 x
+------------------------
+test[gpu]: pass
+test[host]: pass

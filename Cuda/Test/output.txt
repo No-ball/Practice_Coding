@@ -1,0 +1,3 @@
+vector add N(1048576) elements, diff = 0
+host time: 3.33223 ms
+gpu  time: 0.08471 ms
