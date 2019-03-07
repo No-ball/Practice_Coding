@@ -1,0 +1,8 @@
+Connected to 140.115.36.36.
+220 Welcome to NCU_ATM_Class FTP service.
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+331 Please specify the password.
+230 Login successful.
+550 Failed to change directory.
+mput 107601005_test.f90? 221 Goodbye.

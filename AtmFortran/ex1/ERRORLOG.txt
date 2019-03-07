@@ -1,0 +1,23 @@
+Connected to 140.115.36.36.
+220 Welcome to NCU_ATM_Class FTP service.
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+331 Please specify the password.
+230 Login successful.
+250 Directory successfully changed.
+mput 107601005_ex1.f90? 227 Entering Passive Mode (140,115,36,36,79,225).
+553 Could not create file.
+221 Goodbye.
+program RandW
+
+    implicit none
+
+    INTEGER ::  a
+    REAL    ::  b
+
+    READ (*, *)a, b
+    WRITE(*, *)a
+    PRINT* ,   b
+
+    STOP
+end

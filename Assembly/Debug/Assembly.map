@@ -1,0 +1,42 @@
+ Assembly
+
+ Timestamp is 5c2f3418 (Fri Jan  4 18:23:20 2019)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001057H .text$mn                CODE
+ 0002:00000000 00000144H .rdata                  DATA
+ 0002:00000143 00000000H .edata                  DATA
+ 0002:00000144 0000015bH .rdata$zzzdbg           DATA
+ 0003:00000000 00000126H .data                   DATA
+ 0004:00000000 00000170H .rsrc$01                DATA
+ 0004:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___volatile_metadata       00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000010       _main@0                    00401010 f   Test.obj
+
+ entry point at        0001:00000005
+
+ Static symbols
+
+ 0001:00000010       $$000000                   00401010     Test.obj
+ 0003:00000000       SOURCE                     00404000     Test.obj
+ 0003:00000010       TARGET                     00404010     Test.obj
+ 0004:00000170       $R000000                   00405170     * linker generated manifest res *

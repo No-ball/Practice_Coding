@@ -1,0 +1,76 @@
+Microsoft (R) Macro Assembler Version 14.16.27025.1	    01/04/19 18:23:20
+Test.asm						     Page 1 - 1
+
+
+				.386
+				.MODEL flat, stdcall
+				.STACK 4096
+ 00000000			.data
+ 00000000 48 65 6C 6C 6F	SOURCE	db	"Hello, world", 0, 0, 0, 0
+	   2C 20 77 6F 72
+	   6C 64 00 00 00
+	   00
+ 00000010  00000010 [		TARGET	db	16 dup(?)
+	    00
+	   ]
+ 00000000			.CODE
+ 00000000			main PROC
+ 00000000  BE 00000000 R		mov esi, offset SOURCE
+ 00000005  BF 00000010 R		mov	edi, offset TARGET
+ 0000000A  8A 46 0D			mov al, [esi + 13]
+ 0000000D  8B 06			mov eax, [esi]
+ 0000000F  8B 06			mov eax, [esi]
+ 00000011  89 07			mov [edi], eax
+ 00000013  8A 46 06			mov al, [esi + 6]
+ 00000016  89 47 06			mov [edi + 6], eax
+ 00000019  8B 46 07			mov eax, [esi + 7]
+ 0000001C  89 47 07			mov [edi + 7], eax
+ 0000001F  B8 00000000			mov eax, 0
+ 00000024  B0 00			mov al, 0
+ 00000026  66| 8B 46 04			mov ax, [esi + 4]
+ 0000002A  66| 89 47 04			mov [edi + 4], ax
+ 0000002E  66| 8B 46 0B			mov ax, [esi + 11]
+ 00000032  66| 89 47 0B			mov [edi + 11], ax
+ 00000036			main endp
+				end main
+Microsoft (R) Macro Assembler Version 14.16.27025.1	    01/04/19 18:23:20
+Test.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 DWord	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000020 DWord	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000036 DWord	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000036 Public STDCALL
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+SOURCE . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+TARGET . . . . . . . . . . . . .	Byte	 00000010 _DATA	
+
+	   0 Warnings
+	   0 Errors
